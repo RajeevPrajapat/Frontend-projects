@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+.main{
+    background: linear-gradient(135deg,#313131,#0e0e0ee3);
+}
+.nav{
+    background-color: black;
+    padding: 36px 30px;
+}
+.nav img{
+    height: 36px;
+    width: 118px;
+    filter: invert(1);
+    background: none;
+}
+
+.middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+    margin: 3rem auto;
+    background-color:#0a0a0a;
+    border-radius: 0.75rem;
+}
+.middletext{
+    background:none;
+    font-size: 3rem;
+    margin: 3rem 0rem 3rem 0rem;
+    font-weight: 700;
+    width: 100%;
+    text-align: center;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.798);
+    border-radius: 0.75rem;
+    height: 36px;
+    width: 260px;
+    border: 1px solid rgb(144, 143, 143);
+    border-radius: 100px;
+    padding: 7px 31px;
+    font-size: 16px;
+    margin-bottom: 0.50rem;
+    font-weight: bold;
+}
+.btn:hover{
+
+    border: 0.75px
+    solid rgb(253, 253, 252);
+}
+.btn img{
+    height: 24px;
+    background: none;
+    margin-right: 1rem;
+}
+.midline{
+    width: 80%;
+    height: 1px;
+    background-color: rgb(65, 65, 65);
+    margin-top:32px;
+    margin-bottom: 32px;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+.inputtext{
+    font-size: 0.75rem;
+    margin-bottom: 0.5rem;
+    background: transparent;
+    font-weight: bolder;
+}
+.inputdetail{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    background: transparent;
+    border: none;
+    border: 1px solid rgba(255, 255, 255, 0.79);
+    border-radius: 0.3rem;
+    padding: 0.50rem 1.5rem;
+    transition: 0.1s;
+}
+.inputdetail:hover{
+    border: 2px solid rgba(255, 255, 255, 0.989);
+    border-radius: 0.4rem;
+}
+.logbtn{
+    margin: 2rem 0 2rem 0;
+    padding: 0.5rem 2rem;
+}
+.sing{
+    background: transparent;
+    margin-bottom: 2rem;
+}
+.sing span{
+    background: transparent;
+    opacity: 0.6;
+}
+a{
+    text-align: center;
+    background: transparent;
+}
+a:hover{
+    color: #1ED760;
+}
+
+.check{
+    background: transparent;
+    display: flex;
+    gap: 10px;
+}
+
+.navbar{
+    padding: 2rem 0;
+    background-color: #0a0a0a;
+    text-align: center;
+    font-size: 0.75rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

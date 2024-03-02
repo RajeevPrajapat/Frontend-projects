@@ -1,0 +1,243 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border: border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+
+.logo{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.border{
+    border: 1px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid #a6b802;
+    border-radius: 5px;
+}
+
+/*           box 2          */
+.nav-address{
+    height: 50px;
+    width: 100px;
+    
+}
+.add-text1{
+    font-size: 0.85rem;
+    margin-top: 6px;
+    color: #cccccc;
+    margin-left: 15px;
+}
+.add-text2{
+    font-size: 1rem;
+    color: #ffffff;
+    margin-left: 3px;
+}
+.add-icon{
+    display: flex;
+}
+/* box 3 */
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    height: 40px;
+    width: 700px;
+    border-radius: 5px;
+}
+.select-search{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px
+}
+.nav-search:hover{
+    border: 2px orange solid;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon{
+    width: 45px;
+    background-color: rgb(214, 214, 3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    font-size: 1.2rem;
+}
+
+/*        box  4  , 5     */
+.box45{
+    font-weight: 200;
+    font-size:0.8rem;
+}
+.box54{
+    font-weight:bold;
+    font-size: 1rem;
+}
+/*              box 6                 */
+.nav-cart i {
+    font-size: 30px;
+}
+.nav-cart{
+    font-size:20px ;
+    font-weight: 800px;
+}
+/*                   panel bar  s            */
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-ops p {
+    display: inline; 
+    margin-left: 20px;
+
+}
+.panel-ops{
+    width: 72%;
+    font-size: 0.9rem;
+}
+.panel-deals{
+    font-size: 1.2rem;
+    font-weight: 900;
+    color: rgb(218, 117, 23);
+}
+
+
+/*        herose section     */
+.herose{
+    background-image: url(hero_image.jpg);
+    height: 300px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+
+}
+.herose-contain{
+    background-color: #ffffff;
+    color: #0f1111;
+    height: 40px;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    font-size: 0.85rem;
+    
+}
+.herose-contain a{
+    color: #007185;
+}
+/*                   shop section             */
+.shop-sec{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+
+}
+
+.box {
+    height: 270px;
+    background-color: white;
+    width: 23%;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+
+.box-img{
+    height:220px;
+    background-size: cover;
+}
+
+.box-contant{
+    margin: 0px 10px 0px 10px;
+}
+.box-contant p {
+    color: #007185;
+}
+
+.footpanel1{
+    margin-top: 20px;
+    background-color: #37475a;
+    color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    height: 50px;
+}
+
+.footpanel2{
+    height: 300px;
+    background-color:#282d33 ;
+    color: #cfc7c7;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul p{
+    margin-top: 30px;
+}
+ul a{
+    display: block;
+    margin-top: 15px;
+    color: #dddddd;
+    text-decoration: none;
+}
+
+.footpanel3{
+    height: 80px;
+    background-color: #222f3d;
+    border-top: 0.5px wheat solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-img{
+    height: 70px;
+    width: 150px;
+    background-size: cover;
+}
+.footpanel4{
+    height: 200px;
+    background-color: #222f3d;
+    color: #dddddd;
+    border-top: 0.5px wheat solid;
+}
+
+
+
+
+

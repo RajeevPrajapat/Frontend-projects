@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.com"><img src="logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-circle-xmark" onclick="hidimemu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+                <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>World's biggest university</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                Doloribus quasi velit accusantium alias sint ipsum nam
+                 id quod, libero inventore facilis, iure corrupti, 
+                vel deleniti. Doloremque tempora minima unde illum.
+            </p>
+            <a class='hero-btn'>Visit Us To know more</a>
+             
+
+        </div>
+
+    </section>
+    <!-- ------------------java script for toogle menu-------------- -->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showmenu(){
+            navLinks.style.right ="0";
+        }
+        function hidimemu(){
+            navLinks.style.right ="-200px";
+        }
+    </script>
+
+    <!-- ------------------------course---------------- -->
+    <section class="course">
+        <h1>Courses We offer </h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit</p>
+        
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing 
+                    elit. Velit illo nostrum laboriosam officia consectetur
+                    placeat sapiente earum distinctio. Distinctio veniam labore 
+                    sit maxime vel velit quidem, 
+                    mollitia recusandae molestiae quasi!
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h23>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing 
+                    elit. Velit illo nostrum laboriosam officia consectetur
+                    placeat sapiente earum distinctio. Distinctio veniam labore 
+                    sit maxime vel velit quidem, 
+                    mollitia recusandae molestiae quasi!
+                </p>
+            </div>
+            <div class="course-col">
+                    <h3>Post Graduation</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing 
+                    elit. Velit illo nostrum laboriosam officia consectetur
+                    placeat sapiente earum distinctio. Distinctio veniam labore 
+                    sit maxime vel velit quidem, 
+                    mollitia recusandae molestiae quasi!
+                </p>
+            </div>
+        </div>
+    </section>
+    <!--       campus     -->
+    <section>
+        <div class="campus">
+            <h1>Our global campus</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit</p>
+            <div class="row">
+                <div class="campus-col">
+                    <img src="london.png" alt="not load">
+                    <div class="layer">
+                        <h3>LONDON</h3>
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="newyork.png" alt="not load">
+                    <div class="layer">
+                        <h3>New York</h3>
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="washington.png" alt="not load">
+                    <div class="layer">
+                        <h3>Wasghinton</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--        facilities      -->
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit</p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="library.png" alt="">
+                <h3>World class libery</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing 
+                elit. Velit illo nostrum laboriosam officia</p>
+            </div>
+            <div class="facilities-col">
+                <img src="basketball.png" alt="">
+                <h3>largest playground</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing 
+                elit. Velit illo nostrum laboriosam officia</p>
+            </div>
+            <div class="facilities-col">
+                <img src="cafeteria.png" alt="">
+                <h3>Tasty and Healthy food</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing 
+                elit. Velit illo nostrum laboriosam officia</p>
+            </div>
+        </div>
+    </section>
+
+    <!--         testimonials        -->
+    <section class="testimonials">
+        <h1>what are student say</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit</p>
+
+        <div class="row">
+            <div class="testimonials-col">
+                <img src="user1.jpg" alt="">
+                <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                        Maiores ipsum omnis autem laudantium nihil perferendis voluptatem nam qui corrupti rem perspiciatis deserunt 
+                        nesciunt modi excepturi, asperiores illo sint! Minima, quia?</p>
+                        <h3>Christine Barkley</h3>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+            </div>
+            <div class="testimonials-col">
+                <img src="user2.jpg" alt="">
+                <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                        Maiores ipsum omnis autem laudantium nihil perferendis voluptatem nam qui corrupti rem perspiciatis deserunt 
+                        nesciunt modi excepturi, asperiores illo sint! Minima, quia?</p>
+                        <h3>dived brey</h3>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--      coment      -->
+
+<div class="cta">
+    <h1>Enroll for our various Online Courses<br>Anywhere
+        from the World </h1>
+        <a href="" class="hero-btn">CONTACT US</a>
+</div>
+
+<!-- footer -->
+<hr>
+<section class="footer">
+    <h4>about us</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+        Iusto sed non eos. Corporis, <br>expedita doloribus. 
+        Eaque alias nihil perspiciatis, in     </p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-youtube"></i>
+        </div>
+        <p>Made with <i class="fa-regular fa-heart"></i> by easy Tutorils</p>
+</section>
+</body>
+</html>

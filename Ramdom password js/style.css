@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif; 
+    box-sizing: border-box;
+}
+
+body{
+    background: #002339;
+    color: #fff;
+}
+.container{
+    margin: 12%;
+    width: 90%;
+    max-width: 700px;
+
+}
+.container h1{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.container h2{
+    font-size: 45px;
+    font-weight: 500;
+    color: rgb(59, 122, 59);
+    margin-bottom: 20px;
+}
+
+.password input{
+    outline: none;
+    width: 60%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 50px;
+    outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
